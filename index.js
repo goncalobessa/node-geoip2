@@ -12,7 +12,7 @@ GeoIP2 = module.exports = function (database) {
 };
 
 GeoIP2.prototype.getGeoData = function getGeoData(ipAddress) {
-    this.reader.get(ipAddress);
+    return this.reader.get(ipAddress);
 };
 
 GeoIP2.prototype.getDatabaseMetadata = function getDatabaseMetadata() {
