@@ -1,6 +1,6 @@
 {
     "name" : "geoip2",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "description" : "Node port of MaxMind DB-Reader-php",
     "main" : "./index.js",
     "repository" : {

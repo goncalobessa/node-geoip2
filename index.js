@@ -3,7 +3,7 @@
 var Reader = require('./lib/Reader.js'),
     GeoIP2;
 
-GeoIP2 = module.exports = function GeoIP2(database) {
+GeoIP2 = module.exports = function (database) {
     if (database === undefined) {
         throw new Error('GeoIP2: No Database given');
     }
