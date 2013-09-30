@@ -1,0 +1,31 @@
+{
+    "name" : "geoip2",
+    "version" : "0.0.1",
+    "description" : "Node port of MaxMind DB-Reader-php",
+    "main" : "./index.js",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/PaddeK/node-geoip2"
+    },
+    "keywords": [
+        "Maxmind",
+        "GeoIP2",
+        "GeoIP2 Lite"
+    ],
+    "author" : {
+        "name" : "Patrick Klös",
+        "email" : "pkloes@web.de"
+    },
+    "dependencies" : {
+        "big-integer" : ">=1.1.5"
+    },
+    "licenses": [
+        {
+            "type": "LGPL 2.1",
+            "url": "https://github.com/PaddeK/node-geoip2/blob/master/LICENSE"
+        }
+    ],
+    "engine" : {
+        "node" : ">=0.8.0"
+    }
+}
