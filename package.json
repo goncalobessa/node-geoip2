@@ -1,7 +1,7 @@
 {
     "name" : "geoip2",
-    "version" : "0.0.2",
-    "description" : "Node port of MaxMind DB-Reader-php",
+    "version" : "1.0.0",
+    "description" : "Node port of the MaxMind GeoIP2 PHP API",
     "main" : "./index.js",
     "repository" : {
         "type" : "git",
@@ -17,7 +17,7 @@
         "email" : "pkloes@web.de"
     },
     "dependencies" : {
-        "big-integer" : ">=1.1.5"
+        "maxmind-db-reader" : "latest"
     },
     "licenses": [
         {
